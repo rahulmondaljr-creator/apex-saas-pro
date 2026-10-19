@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Apex SaaS — Launch Your Product</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body{background:#05070d;font-family:'Segoe UI',system-ui,sans-serif}
+  .glass{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);backdrop-filter:blur(14px)}
+  .grad{background:linear-gradient(90deg,#34d399,#22d3ee,#a855f7);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .glow{box-shadow:0 0 50px rgba(52,211,153,.25)}
+</style>
+</head>
+<body class="text-slate-200">
+
+<!-- NAV -->
+<nav class="glass fixed top-0 inset-x-0 z-40">
+  <div class="max-w-6xl mx-auto flex items-center justify-between px-4 h-14">
+    <b>Apex<span class="text-emerald-400">.</span></b>
+    <div class="hidden sm:flex gap-6 text-sm text-slate-400">
+      <a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+    </div>
+    <a href="#pricing" class="rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-slate-950 font-bold text-sm px-4 py-2 glow">Get started</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="pt-32 pb-16 px-4 text-center relative">
+  <span class="glass rounded-full px-4 py-1 text-xs text-emerald-400">New: AI analytics engine</span>
+  <h1 class="text-4xl sm:text-5xl font-bold mt-5 max-w-2xl mx-auto leading-tight">Launch your SaaS <span class="grad">faster than ever</span></h1>
+  <p class="text-slate-400 mt-4 max-w-lg mx-auto text-sm">Apex gives your product a landing page that converts — dark, fast, and built to sell.</p>
+  <div class="mt-7 flex gap-3 justify-center">
+    <a href="#pricing" class="rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-slate-950 font-bold px-6 py-3 glow">Start free trial</a>
+    <a href="#features" class="glass rounded-xl px-6 py-3 text-sm">See features</a>
+  </div>
+  <!-- mock dashboard -->
+  <div class="glass rounded-2xl max-w-2xl mx-auto mt-12 p-4 text-left">
+    <div class="grid grid-cols-3 gap-2 mb-3">
+      <div class="h-14 rounded-lg bg-gradient-to-br from-emerald-400/50 to-cyan-500/50"></div>
+      <div class="h-14 rounded-lg bg-gradient-to-br from-cyan-400/50 to-blue-500/50"></div>
+      <div class="h-14 rounded-lg bg-gradient-to-br from-purple-500/50 to-pink-500/50"></div>
+    </div>
+    <div class="flex items-end gap-1.5 h-20">
+      <div class="flex-1 rounded-t bg-emerald-500/70" style="height:40%"></div>
+      <div class="flex-1 rounded-t bg-cyan-400/70" style="height:70%"></div>
+      <div class="flex-1 rounded-t bg-emerald-500/70" style="height:55%"></div>
+      <div class="flex-1 rounded-t bg-cyan-400/70" style="height:90%"></div>
+      <div class="flex-1 rounded-t bg-purple-500/70" style="height:65%"></div>
+      <div class="flex-1 rounded-t bg-cyan-400/70" style="height:80%"></div>
+    </div>
+  </div>
+  <p class="text-xs text-slate-500 mt-6">Trusted by teams at <b class="text-slate-400">Nova · Vertex · Orbit · Pulse · Lumen</b></p>
+</header>
+
+<!-- FEATURES -->
+<section id="features" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="text-2xl font-bold text-center">Everything you need to <span class="grad">convert</span></h2>
+  <div class="grid sm:grid-cols-3 gap-4 mt-8">
+    <div class="glass rounded-2xl p-5"><div class="h-10 w-10 rounded-xl bg-emerald-500/20 grid place-items-center mb-3">⚡</div><b>Blazing fast</b><p class="text-xs text-slate-400 mt-1">Single file, no build step. Loads instantly on any device.</p></div>
+    <div class="glass rounded-2xl p-5"><div class="h-10 w-10 rounded-xl bg-cyan-500/20 grid place-items-center mb-3">🎯</div><b>Built to sell</b><p class="text-xs text-slate-400 mt-1">Pricing, social proof and CTAs placed by conversion science.</p></div>
+    <div class="glass rounded-2xl p-5"><div class="h-10 w-10 rounded-xl bg-purple-500/20 grid place-items-center mb-3">🎨</div><b>Easy to edit</b><p class="text-xs text-slate-400 mt-1">Change colors, text and links in minutes. No coding stress.</p></div>
+    <div class="glass rounded-2xl p-5"><div class="h-10 w-10 rounded-xl bg-pink-500/20 grid place-items-center mb-3">📱</div><b>Fully responsive</b><p class="text-xs text-slate-400 mt-1">Perfect on mobile, tablet and desktop out of the box.</p></div>
+    <div class="glass rounded-2xl p-5"><div class="h-10 w-10 rounded-xl bg-emerald-500/20 grid place-items-center mb-3">🔒</div><b>SEO ready</b><p class="text-xs text-slate-400 mt-1">Semantic HTML and meta tags help you rank from day one.</p></div>
+    <div class="glass rounded-2xl p-5"><div class="h-10 w-10 rounded-xl bg-cyan-500/20 grid place-items-center mb-3">🚀</div><b>Deploy anywhere</b><p class="text-xs text-slate-400 mt-1">Vercel, Netlify, GitHub Pages — drop it and go live.</p></div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="max-w-5xl mx-auto px-4 py-14">
+  <h2 class="text-2xl font-bold text-center">Simple, honest <span class="grad">pricing</span></h2>
+  <div class="grid sm:grid-cols-3 gap-4 mt-8 items-stretch">
+    <div class="glass rounded-2xl p-6 flex flex-col"><b>Starter</b><p class="text-3xl font-bold mt-2">$9<span class="text-sm text-slate-500">/mo</span></p><ul class="text-xs text-slate-400 mt-4 space-y-2 flex-1"><li>1 project</li><li>Basic analytics</li><li>Community support</li></ul><button class="glass rounded-xl py-2.5 mt-5 text-sm">Choose Starter</button></div>
+    <div class="glass rounded-2xl p-6 flex flex-col relative border-emerald-400/40 glow"><span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-emerald-400 to-cyan-400 text-slate-950 text-xs font-bold rounded-full px-3 py-1">MOST POPULAR</span><b>Pro</b><p class="text-3xl font-bold mt-2">$29<span class="text-sm text-slate-500">/mo</span></p><ul class="text-xs text-slate-400 mt-4 space-y-2 flex-1"><li>10 projects</li><li>Advanced analytics</li><li>Priority support</li><li>Custom domains</li></ul><button class="rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-slate-950 font-bold py-2.5 mt-5 text-sm">Choose Pro</button></div>
+    <div class="glass rounded-2xl p-6 flex flex-col"><b>Scale</b><p class="text-3xl font-bold mt-2">$79<span class="text-sm text-slate-500">/mo</span></p><ul class="text-xs text-slate-400 mt-4 space-y-2 flex-1"><li>Unlimited projects</li><li>Team seats</li><li>99.9% SLA</li></ul><button class="glass rounded-xl py-2.5 mt-5 text-sm">Contact sales</button></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="max-w-5xl mx-auto px-4 py-14">
+  <h2 class="text-2xl font-bold text-center">Loved by <span class="grad">founders</span></h2>
+  <div class="grid sm:grid-cols-3 gap-4 mt-8">
+    <div class="glass rounded-2xl p-5 text-sm text-slate-400">"Swapped our old page for Apex and trial signups doubled in a week."<p class="text-emerald-400 mt-3 text-xs font-bold">— Riya, Nova</p></div>
+    <div class="glass rounded-2xl p-5 text-sm text-slate-400">"The pricing section alone is worth it. Clean, fast, professional."<p class="text-emerald-400 mt-3 text-xs font-bold">— Dan, Vertex</p></div>
+    <div class="glass rounded-2xl p-5 text-sm text-slate-400">"Deployed in 10 minutes. Our investors loved the landing page."<p class="text-emerald-400 mt-3 text-xs font-bold">— Sam, Orbit</p></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="max-w-2xl mx-auto px-4 py-14">
+  <h2 class="text-2xl font-bold text-center mb-8">Frequently asked</h2>
+  <div class="space-y-3">
+    <div class="glass rounded-xl"><button onclick="this.nextElementSibling.classList.toggle('hidden')" class="w-full text-left px-5 py-4 text-sm font-semibold">Can I edit the colors? ▾</button><p class="hidden px-5 pb-4 text-xs text-slate-400">Yes — one CSS variable change recolors the whole template.</p></div>
+    <div class="glass rounded-xl"><button onclick="this.nextElementSibling.classList.toggle('hidden')" class="w-full text-left px-5 py-4 text-sm font-semibold">Do I need to code? ▾</button><p class="hidden px-5 pb-4 text-xs text-slate-400">No. Edit text like a document and redeploy.</p></div>
+    <div class="glass rounded-xl"><button onclick="this.nextElementSibling.classList.toggle('hidden')" class="w-full text-left px-5 py-4 text-sm font-semibold">Can I use it commercially? ▾</button><p class="hidden px-5 pb-4 text-xs text-slate-400">Yes — for your own product or client projects.</p></div>
+    <div class="glass rounded-xl"><button onclick="this.nextElementSibling.classList.toggle('hidden')" class="w-full text-left px-5 py-4 text-sm font-semibold">Is it really one file? ▾</button><p class="hidden px-5 pb-4 text-xs text-slate-400">Yes. HTML + Tailwind CDN + tiny inline JS. Nothing else.</p></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="max-w-3xl mx-auto px-4 py-14 text-center">
+  <div class="glass rounded-3xl p-10 glow">
+    <h2 class="text-2xl font-bold">Ready to <span class="grad">launch</span>?</h2>
+    <p class="text-slate-400 text-sm mt-2">Join hundreds of startups shipping faster with Apex.</p>
+    <a href="#pricing" class="inline-block mt-6 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-slate-950 font-bold px-8 py-3">Start free trial</a>
+  </div>
+</section>
+
+<footer class="text-center text-xs text-slate-600 pb-10">© Apex SaaS Template · Crafted with care</footer>
+</body>
+</html>
